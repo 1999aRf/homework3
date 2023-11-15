@@ -28,7 +28,7 @@ public class Main {
         byte secTeacher = 27;
         byte thirdTeacher = 30;
         short totalNumberOfSheets = 480;
-        int studentBody = 0;
+        int studentBody = firstTeacher + secTeacher + thirdTeacher;
         int result = 0;
         studentBody = firstTeacher + secTeacher + thirdTeacher;
         result = totalNumberOfSheets / studentBody;
@@ -103,6 +103,5 @@ public class Main {
         ZPKristina = ZPKristina / 10 + ZPKristina;
         variance = ZPKristina * 12 - yearZPKristina;
         System.out.println("Кристина теперь получает " + ZPDenis + " рублей. Годовой доход вырос на " + variance + " рублей");
-
     }
     }
